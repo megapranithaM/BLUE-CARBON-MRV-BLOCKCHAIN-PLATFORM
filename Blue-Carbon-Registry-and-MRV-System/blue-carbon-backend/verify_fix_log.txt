@@ -1,0 +1,10 @@
+--- Starting verification flow test ---
+
+1. Logging in...
+Logged in successfully.
+
+2. Registering project...
+Project registered. DB ID: None, Blockchain ID: 3
+
+3. Uploading evidence...
+Evidence upload failed (422): {"detail":[{"type":"missing","loc":["body","project_id"],"msg":"Field required","input":null,"url":"https://errors.pydantic.dev/2.5/v/missing"}]}

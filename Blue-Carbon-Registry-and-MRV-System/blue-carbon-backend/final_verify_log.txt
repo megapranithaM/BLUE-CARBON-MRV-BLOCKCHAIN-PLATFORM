@@ -1,0 +1,25 @@
+--- System Verification Starting ---
+
+1. Logging in...
+OK: Logged in.
+
+2. Registering project...
+OK: Project registered. DB ID: 2, Blockchain ID: 2
+
+3. Uploading evidence...
+OK: Evidence uploaded. ID: 1
+
+4. Verifying and Minting credits...
+OK: Credits minted.
+
+5. Checking final project status...
+Project: Verification Test Mangrove
+Credits: 1000
+Traceback (most recent call last):
+  File "C:\Users\megam\OneDrive\Desktop\block\Blue-Carbon-Registry-and-MRV-System\blue-carbon-backend\final_verify.py", line 94, in <module>
+    if verify_system():
+  File "C:\Users\megam\OneDrive\Desktop\block\Blue-Carbon-Registry-and-MRV-System\blue-carbon-backend\final_verify.py", line 87, in verify_system
+    print("\n\u2705 SYSTEM VERIFICATION SUCCESSFUL: Everything works correctly and accurately.")
+  File "C:\Program Files\Python310\lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2705' in position 2: character maps to <undefined>
